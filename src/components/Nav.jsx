@@ -1,4 +1,4 @@
-
+import "../App.css"
 const Nav = () => {
     const items = [
         { name: "Home", url: "#" },
@@ -9,7 +9,7 @@ const Nav = () => {
         { name: "Login", url: "#" }
     ];
     return (
-        <nav>
+        <nav className="nav">
             <ul>{
                 items.map((item) => <li key={item.name}>
                     {item.name}
