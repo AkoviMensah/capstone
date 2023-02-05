@@ -12,7 +12,7 @@ const Nav = () => {
         <nav className="nav">
             <ul>{
                 items.map((item) => <li key={item.name}>
-                    {item.name}
+                    <a href={item.url}>{item.name}</a>
                 </li>)
             }</ul>
         </nav>
