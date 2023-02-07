@@ -1,25 +1,25 @@
 import greeksalad from '../../assets/greek salad.jpg';
-import bruchetta from '../../assets/restauranfood.jpg';
 import dessert from '../../assets/lemon dessert.jpg';
+import brucheta from '../../assets/brucheta.jpg';
 const data = [
   {
     id: 1,
     name: 'Greek Salad',
-    Price: '$12.99',
+    price: '$12.99',
     image: greeksalad,
     description: 'The famo udjf dkfjdkfjdf jkfjdskf4hr4r u49fk4i rji4ir',
   },
   {
     id: 2,
-    name: 'Greek Salad',
-    Price: '$12.99',
-    image: bruchetta,
+    name: 'Bruchetta',
+    price: '$5.99',
+    image: brucheta,
     description: 'The famo udjf dkfjdkfjdf jkfjdskf4hr4r u49fk4i rji4ir',
   },
   {
     id: 3,
-    name: 'Greek Salad',
-    Price: '$12.99',
+    name: 'Lemon Dessert',
+    price: '$6.00',
     image: dessert,
     description: 'The famo udjf dkfjdkfjdf jkfjdskf4hr4r u49fk4i rji4ir',
   },

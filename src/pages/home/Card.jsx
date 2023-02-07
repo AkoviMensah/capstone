@@ -2,8 +2,8 @@
 
 const Card = ({ item }) => {
     return (
-        <article>
-            <img src={item.image} alt={item.name} />
+        <article className="card">
+            <img src={item.image} alt={item.name} className="s-image" />
             <span>
                 <h4>{item.name}</h4>
                 <h4>{item.price}</h4>

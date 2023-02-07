@@ -1,10 +1,11 @@
 import React from 'react'
+import './homepage.css'
 
-const Button = ({ title }) => {
+const Button = ({ children }) => {
 
     return (
         <button>
-            {title}
+            {children}
         </button>
     )
 }

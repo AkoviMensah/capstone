@@ -7,12 +7,11 @@
 
 header {
   font-size: large;
-  padding: 0.4rem 5rem;
-  background-color: #282c34;
+  margin: 0.4rem 20rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2.5fr;
   justify-content: center;
-  color: white;
+  align-items: center;
 }
 
 ul {
@@ -23,10 +22,10 @@ ul {
 
 a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-img {
+.logo {
   height: auto;
   max-width: 10rem;
 }
