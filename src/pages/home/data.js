@@ -7,7 +7,8 @@ const data = [
     name: 'Greek Salad',
     price: '$12.99',
     image: greeksalad,
-    description: 'The famo udjf dkfjdkfjdf jkfjdskf4hr4r u49fk4i rji4ir',
+    description:
+      'The famo udjf dkfjdkfjdf jkfjdskf4hr4r u49fk4i rji4ir bkghgh hg gg yghg gygjghyg gghhjkhg ghygy gyggygy g yygygyghg yghjk u ygyuhg yg yg',
   },
   {
     id: 2,
