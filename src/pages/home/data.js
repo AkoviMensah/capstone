@@ -8,21 +8,23 @@ const data = [
     price: '$12.99',
     image: greeksalad,
     description:
-      'The famo udjf dkfjdkfjdf jkfjdskf4hr4r u49fk4i rji4ir bkghgh hg gg yghg gygjghyg gghhjkhg ghygy gyggygy g yygygyghg yghjk u ygyuhg yg yg',
+      'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.',
   },
   {
     id: 2,
     name: 'Bruchetta',
     price: '$5.99',
     image: brucheta,
-    description: 'The famo udjf dkfjdkfjdf jkfjdskf4hr4r u49fk4i rji4ir',
+    description:
+      'Our Bruchetta is made from grilled bread and has been smeared with garlic and seasoned with salt and olive oil.',
   },
   {
     id: 3,
     name: 'Lemon Dessert',
     price: '$6.00',
     image: dessert,
-    description: 'The famo udjf dkfjdkfjdf jkfjdskf4hr4r u49fk4i rji4ir',
+    description:
+      "This come straight from grandma's reciepie book, every last ingredient has been sourced and is as authentic as can be imagined. ",
   },
 ];
 

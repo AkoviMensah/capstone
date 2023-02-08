@@ -9,10 +9,10 @@ const Card = ({ item }) => {
                     <h4>{item.name}</h4>
                     <h4 className="price">{item.price}</h4>
                 </span>
-                <p>{item.description}</p>
+                <p className='item_description'>{item.description}</p>
                 <span>
                     {
-                        <h6>Order a delivery</h6>
+                        <h5>Order a delivery</h5>
                     }
                 </span>
             </div>

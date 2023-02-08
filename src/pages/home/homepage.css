@@ -1,15 +1,28 @@
+.name{
+    font-size: xx-large;
+    transform: translateY(2rem);
+    color: #f4CE14;
+}
+.littlelemon{
+    max-width: 20rem;
+    color: white;
+}
+
+.city{
+    color: white;
+}
 button {
-    background-color: yellow;
+    background-color: #F4CE14;
     color: black;
-    width: 8rem;
-    height: 2rem;
+    width: 10rem;
+    height: 2.6rem;
     font-size: medium;
     border-radius: 4rem;
 }
 
 
 .section2{
-    height: 7rem;
+    height: 10rem;
     align-items: center;
     display: grid;
     grid-template-columns: 4fr 0.9fr;
@@ -30,18 +43,22 @@ section {
 
 .promo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
+.promo1{
+    transform: translateY(-10%);
+}
 .promo2 {
-    height: auto;
-    max-width: 10rem;
+    height: 16rem;
+    width: 16rem;
+    transform: translateY(15%);
+    border-radius: 1rem;
   }
 
 .card {
-    outline: 2px solid black;
     width: 250px;
-    background-color: beige;
+    background-color: rgb(244, 240, 240);
     height: 550px;
     border-radius: 1rem;
 }
@@ -55,7 +72,7 @@ section {
 
 .main{
     padding: 0%;
-    background-color: aquamarine;
+    background-color: #495E57 ;
 }
 
 .card_body{
@@ -68,5 +85,9 @@ section {
 }
 
 .price{
-    color: orange;
+    color: #EE9972;
+}
+
+.item_description{
+    height: 170px;
 }
