@@ -9,11 +9,11 @@ const Homepage = () => {
     return (
         <main>
             <Promo />
-            <section className='section2'>
+            <section className='section section2'>
                 <h1>This weeks specials!</h1>
                 <Button>Online Menu</Button>
             </section>
-            <section className="specials">
+            <section className="section specials">
                 {
                     data.map(item => <Card key={item.id} item={item} />)
                 }

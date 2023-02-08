@@ -1,10 +1,10 @@
 import "../App.css"
 const Nav = () => {
     const items = [
-        { name: "Home", url: "#" },
+        { name: "Home", url: "/" },
         { name: "About", url: "#" },
         { name: "Menu", url: "#" },
-        { name: "Reservations", url: "#" },
+        { name: "Reservations", url: "/book" },
         { name: "Order Online", url: "#" },
         { name: "Login", url: "#" }
     ];

@@ -30,6 +30,11 @@ a{
   max-width: 10rem;
 }
 
+footer {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

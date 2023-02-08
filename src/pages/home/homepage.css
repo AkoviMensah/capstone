@@ -25,7 +25,7 @@ button {
     height: 10rem;
     align-items: center;
     display: grid;
-    grid-template-columns: 4fr 0.9fr;
+    grid-template-columns: 3.5fr 1fr;
 }
 
 .specials{
@@ -36,7 +36,7 @@ button {
 }
 
 
-section {
+.section {
     margin-left: 20rem;
     margin-right: 20rem;
 }
