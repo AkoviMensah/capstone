@@ -4,7 +4,7 @@ import './homepage.css'
 const Button = ({ children }) => {
 
     return (
-        <button>
+        <button >
             {children}
         </button>
     )

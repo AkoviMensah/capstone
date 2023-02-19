@@ -1,0 +1,33 @@
+
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 1fr;
+    align-items: center;
+    background-color: #EDEFEE;
+    height: 4rem;
+}
+
+input,select{
+    height: 50%;
+}
+
+.message{
+    transform: translateX(3rem);
+    color: red;
+}
+
+.reservenow{
+    margin-top: 2rem;
+    transform: translateX(22rem);
+}
+
+.reservenow:disabled{
+    margin-top: 2rem;
+    transform: translateX(22rem);
+    background-color: gray;
+}
+
+.booking_form{
+    align-items: center;
+}

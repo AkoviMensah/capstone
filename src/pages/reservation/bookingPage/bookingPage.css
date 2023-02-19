@@ -1,3 +1,27 @@
-.section1{
-    background-color: aquamarine;
+.s1{
+    background-color: #495E57;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.s2{
+    background-color: #F4CE14;
+    color: #333333;
+    align-items: center;
+    text-align: center;
+}
+
+.s3{
+    background-color: #EDEFEE;
+}
+
+
+
+.little{
+    color: #F4CE14;
+}
+
+.address{
+    color: white;
 }
