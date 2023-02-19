@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Confrimation = () => {
+const ConfirmedBooking = () => {
     return (
         <main>
             <section className='s1'>
@@ -13,13 +13,13 @@ const Confrimation = () => {
                 <h3><b>Enter your reservation details</b></h3>
             </section>
             <section className='section s3 final'>
-                <h1> Your reservation is complete.</h1>
+                <h1> Your reservation is complete. Thank you</h1>
                 <h1> Your confirmation number is :
-                    <b className='price'>{" " + parseInt(Math.random() * 100000)}</b>
+                    <b className='price'>{" " + parseInt(Math.random() * 10000000)}</b>
                 </h1>
             </section>
         </main>
     )
 }
 
-export default Confrimation
+export default ConfirmedBooking

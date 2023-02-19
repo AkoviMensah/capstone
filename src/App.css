@@ -31,6 +31,7 @@ a{
 }
 
 footer {
+  margin-top: 4rem;
   margin-left: 20rem;
   margin-right: 20rem;
 }
@@ -42,4 +43,23 @@ footer {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+footer div {
+  flex: 1;
+}
+
+footer img {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+#logo_footer{
+  text-align: left;
+}
+
+#copyright{
+  text-align: right;
+  border-top: 1px solid black;
 }
