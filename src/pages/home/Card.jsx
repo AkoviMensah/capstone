@@ -1,4 +1,5 @@
 import './homepage.css'
+import { RiMotorbikeFill } from 'react-icons/ri'
 
 const Card = ({ item }) => {
     return (
@@ -10,10 +11,8 @@ const Card = ({ item }) => {
                     <h4 className="price">{item.price}</h4>
                 </span>
                 <p className='item_description'>{item.description}</p>
-                <span>
-                    {
-                        <h5>Order a delivery</h5>
-                    }
+                <span className='icon' >
+                    <h5>Order a delivery  <RiMotorbikeFill /></h5>
                 </span>
             </div>
         </article>
